@@ -31,6 +31,13 @@ We welcome your comments on slides.
 pip install -r requirements.txt
 ```
 
+## Mac OS error
+- ipython 에러가 발생한 경우 / [link](https://github.com/ipython/ipython/issues/11270#issuecomment-427448691)
+```
+pip uninstall -y ipython prompt_toolkit
+pip install ipython
+```
+
 ## Run test and autopep8
 TODO: Need to add more test cases
 
